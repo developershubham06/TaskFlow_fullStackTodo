@@ -11,7 +11,7 @@
   "dependencies": {
     "@hello-pangea/dnd": "^17.0.0",
     "lucide-react": "^0.545.0",
-    "next": "15.5.4",
+    "next": "latest",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "socket.io-client": "^4.7.4"
@@ -20,7 +20,7 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
-    "eslint-config-next": "15.5.4",
+    "eslint-config-next": "latest",
     "tailwindcss": "^4"
   }
 }
