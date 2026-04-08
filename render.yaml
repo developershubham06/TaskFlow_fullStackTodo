@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: taskflow-api
+    env: node
+    buildCommand: yarn install
+    startCommand: cd services/api && yarn start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        sync: false
